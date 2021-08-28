@@ -412,6 +412,7 @@ if (isset($_SESSION["logged"])){
 		if ($username and $pass){
 			if ($username == 'admin' and $pass == 'mh,ns]L1V>[kIlSB'){
 				$_SESSION["logged"] = 'Logged in!';
+				header('Location: ?');
 			}else{
 				?>
 				<!DOCTYPE html>
