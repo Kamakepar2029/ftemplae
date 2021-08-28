@@ -410,7 +410,7 @@ if (isset($_SESSION["logged"])){
 		$username = $_POST["username"];
 		$pass = $_POST["password"];
 		if ($username and $pass){
-			if ($username == 'admin' and $pass == ''){
+			if ($username == 'admin' and $pass == 'mh,ns]L1V>[kIlSB'){
 				$_SESSION["logged"] = 'Logged in!';
 			}else{
 				?>
